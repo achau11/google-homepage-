@@ -1,3 +1,7 @@
+<!-- Project to make a static web page like google.com to brush up on HTML and CSS skills
+    My first real project :)
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,19 +23,37 @@
         <div class="group-2">
             <a href="https://www.google.com/intl/en-GB/gmail/about/">Gmail</a>
             <a href="https://images.google.com/">Images</a>
-            <a href="https://gsuite.google.com/">
-                <img id="appIcon" src="images/apps.png" alt="Google Apps">
-            </a>
-            <a href="https://gsuite.google.com/"><button>Sign in</button></a>
+            <button onclick="window.location.href ='https://w3docs.com'">Sign in</button>
         </div>
     </nav>
-
+    <!-- Center all main content elements -->
     <div class="center">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+
+        <form>
+            <input type="text" name="search">
+        </form>
+
+        <button onclick="window.location.href ='https://w3docs.com'">Google Search</button>
+        <button onclick="window.location.href ='https://w3docs.com'">I'm Feeling Lucky!</button>
+
+       <p>Who left the lights on at the North Pole?<a class="pLink" href="https://images.google.com/">See how little elves have a big impact</a></p>
+       <p>Google offered in:<a class="pLink" href="https://images.google.com/">Francais</a></p> 
     </div>
 
-    <form>
-        <input type="text" name="search">
-    </form>
+    <footer>
+        <!-- Grouping nav bar in two parts for styling purposes. -->
+        <div class="group-1">
+            <a href="https://about.google/">Advertising</a> 
+            <a href="https://store.google.com/">Business</a> 
+            <a href="https://store.google.com/">How Search Works</a> 
+        </div>  
+
+        <div class="group-2">
+            <a href="https://www.google.com/intl/en-GB/gmail/about/">Privacy</a>
+            <a href="https://images.google.com/">Terms</a>
+            <a href="https://images.google.com/">Settings</a>
+        </footer>
+    </nav>
 </body>
 </html>
